@@ -74,9 +74,16 @@ img {
 /* telefono responsive */
 @media screen and (max-width: 420px) {
 /* regola generale di adattamento larghezza */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   .row {
     width: 100%;
     font-size: large;
+    margin: 0;
   }
 
 /* BLOCCO LEZIONI */
@@ -85,7 +92,7 @@ img {
     background-color: rgb(221, 221, 142);
   }
   #lezioni .row>.left,
-  #lezioni .row>.right {
+  #lezioni .row>.right {    
     width: 100%;
     background-color: rgb(221, 221, 142);
     text-align: center;
